@@ -1,0 +1,78 @@
+.contenedor{
+    display: grid;
+    justify-items: center;
+    align-items: 100vh;
+    background-color: gainsboro;
+    
+
+}
+.calculadora{
+    width: 320px;
+    background-color: antiquewhite;
+    display: grid;
+    justify-items: center;
+    height: 380px;
+    align-items: baseline;
+    border-radius: 10px;
+}
+.botones{
+    display: grid;
+   grid-template-columns: repeat(4, 1fr);
+border: none;
+border-radius: 5px;
+gap: 2px;
+margin: auto;
+
+}
+
+.boton{
+    width: 60px;
+    height: 50px;
+    border-radius: 5px;
+    }
+    .boton:active{
+        width: 60px;
+    height: 50px;
+    background-color:#95c4c1 ;
+    }
+
+.numero{
+    background-color: #A8ECE7;
+    font-size: x-large;
+
+
+}
+.violeta{
+    background-color: #F4BEEE;
+}
+.lila{
+   background-color:#FDFF8F; 
+}
+.igual{
+    background-color:#D47AE8 ;
+}
+
+.violeta, .lila, .igual{
+ font-size: x-large;
+ font: bold; 
+}
+
+.pie{
+    height: 20px;
+    width: 100%;
+    background-color: white;
+}
+
+.display{
+    display: grid;
+    background-color: grey;
+    color: white;
+    text-align: center;
+    align-items: baseline;
+    font-size: 50px;
+    border-radius: 8px;
+    width: 280px;
+    margin-top: auto;
+    border-style: inset;
+    
+}
